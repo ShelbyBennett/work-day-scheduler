@@ -2,6 +2,14 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lead{
+  text-align: center;
+}
 
 textarea {
   background: transparent;
@@ -36,12 +44,12 @@ textarea {
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #BA324F;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #679436;
   color: white;
 }
 
@@ -49,7 +57,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #05668D;
   color: white;
 }
 
